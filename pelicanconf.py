@@ -1,10 +1,18 @@
 AUTHOR = 'Kieran Choi-Slattery'
-SITENAME = "Kieran's Portfolio"
+SITENAME = "Kieran Choi-Slattery"
 SITEURL = ""
 
-THEME = './pelican-themes/bootstrap2'
+THEME = './pelican-themes/pelican-bootstrap3'
+
+# These next few lines are just to satisfy the theme
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['i18n_subsites']
 
 PATH = "content"
+
+ABOUT_ME = "Hi, I'm Kieran!"
+AVATAR = "images/square-headshot.jpg"
 
 TIMEZONE = 'EST'
 
@@ -17,13 +25,13 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+PADDED_SINGLE_COLUMN_STYLE = True
+
 # Blogroll
-# LINKS = (
-#     ("Pelican", "https://getpelican.com/"),
-#     ("Python.org", "https://www.python.org/"),
-#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-#     ("You can modify those links in your config file", "#"),
-# )
+LINKS = (
+    ("Planetary Exploration Lab", "https://pxl.earth/"),
+    ("Georgia Tech Experimental Rocketry", "https://www.ramblinrocketclub.org/gtxr"),
+)
 
 # Social widget
 SOCIAL = (
