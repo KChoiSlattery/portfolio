@@ -4,8 +4,7 @@
   "description": "My portfolio for applications to internships, grad school, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "markdown-folder-to-html src && rmdir build /s /q && ren _src build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/KChoiSlattery/portfolio/issues"
   },
-  "homepage": "https://github.com/KChoiSlattery/portfolio#readme",
-  "devDependencies": {
-    "markdown-folder-to-html": "^2.4.0"
-  }
+  "homepage": "https://github.com/KChoiSlattery/portfolio#readme"
 }
