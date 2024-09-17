@@ -2,6 +2,8 @@ AUTHOR = 'Kieran Choi-Slattery'
 SITENAME = "Kieran's Portfolio"
 SITEURL = ""
 
+THEME = './pelican-themes/bootstrap2'
+
 PATH = "content"
 
 TIMEZONE = 'EST'
@@ -16,17 +18,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+# LINKS = (
+#     ("Pelican", "https://getpelican.com/"),
+#     ("Python.org", "https://www.python.org/"),
+#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+#     ("You can modify those links in your config file", "#"),
+# )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Github", "https://github.com/KChoiSlattery"),
+    ("LinkedIn", "https://www.linkedin.com/in/kchoislattery/"),
 )
 
 DEFAULT_PAGINATION = 10

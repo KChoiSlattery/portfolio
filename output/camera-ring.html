@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kieran's Portfolio</title>
+    <title>Camera Ring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Kieran Choi-Slattery">
@@ -64,7 +64,7 @@
           <div class="nav-collapse">
             <ul class="nav">
                           <li class="divider-vertical"></li>
-                  <li >
+                  <li class="active">
                     <a href="/category/engineering.html">
 						<i class="icon-folder-open icon-large"></i>Engineering
 					</a>
@@ -89,9 +89,76 @@
     <div class="container-fluid">
       <div class="row">
         <div class="span9" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to Camera Ring">
+                                        Camera Ring
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2024-09-17T02:37:00-05:00">
+        <i class="icon-calendar"></i>Tue 17 September 2024
+</abbr>
+<span class="label">By</span>
+<a href="/author/kieran-choi-slattery.html"><i class="icon-user"></i>Kieran Choi-Slattery</a>
+<span class="label">Category</span>
+<a href="/category/engineering.html"><i class="icon-folder-open"></i>Engineering</a>.
+
+
+</footer><!-- /.post-info -->                </div>
+                <h2>Setting up software development environment</h2>
+<p>:::info
+This page is still under construction</p>
+<p>:::</p>
+<p>:::info
+These instructions are for any operating system with a desktop environment, and for working with VS Code.</p>
+<p>:::</p>
+<h2>Setup</h2>
+<p>Install the following programs:</p>
 <ul>
-<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+<li><a href="https://www.docker.com/products/docker-desktop/">Docker desktop</a></li>
+<li><a href="https://code.visualstudio.com/">VS Code</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">"Dev Containers" VS Code extension</a></li>
+<li>
+<p><a href="https://git-scm.com/downloads">Git</a></p>
+</li>
+<li>
+<p>Choose a folder in which you want to store your local copy of the project</p>
+</li>
+<li>Depending on the software project you're working on, clone that repository by opening a terminal in that folder and running <code>git clone https://github.gatech.edu/Ramblin-Rocket-Club/project-repository</code>, where <code>project-repository</code> is replaced by the name of the project*.</li>
+<li>Open VS Code and open the repository folder.</li>
+<li>If one is not open, open a terminal by pressing <code>ctrl+shift+`</code>.</li>
+<li>If on windows, run the Docker Desktop app (this can be done at any point in the process, as long as it is before step 6).</li>
+<li>Build the docker image: <code>docker-compose build</code></li>
 </ul>
+<p>:::tip
+*If step 2 does not work, run <code>git --version</code> to verify installation of git. If you get a similar error to <code>'git' is not recognized as an internal or external command, operable program or batch file.</code>, rerun the installer, making sure to add git to your PATH.</p>
+<p>:::</p>
+<h2>Usage</h2>
+<p>To run the image:</p>
+<ul>
+<li>Create a container: <code>docker-compose up -d</code></li>
+<li>Open the VS Code comment palette by pressing <code>ctrl+shift+p</code></li>
+<li>Run the command <code>Dev Containers: Attach to Running Container</code></li>
+<li>Select the container that you've just started</li>
+</ul>
+<p>This should open a new VS Code window, which you will use to develop your code. When you are done:</p>
+<ul>
+<li>Ensure your changes are saved</li>
+<li>Close the Dev Container VS Code window</li>
+<li>In the terminal in the original VS Code window, run <code>docker-compose down</code></li>
+</ul>
+                </div><!-- /.entry-content -->
+        </article>
+</section>
         </div><!--/span-->
 
                 <div class="span3 well sidebar-nav" id="sidebar">

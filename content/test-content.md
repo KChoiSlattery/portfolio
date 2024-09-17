@@ -1,5 +1,0 @@
-Title: Example content
-Date: 2024-09-17 02:37
-Category: Test
-
-Hello world!
