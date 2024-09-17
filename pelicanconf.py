@@ -2,7 +2,7 @@ AUTHOR = 'Kieran Choi-Slattery'
 SITENAME = "Kieran Choi-Slattery"
 SITEURL = ""
 
-THEME = './pelican-themes/pelican-bootstrap3'
+THEME = './theme'
 
 # These next few lines are just to satisfy the theme
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
