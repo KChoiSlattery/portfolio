@@ -6,8 +6,8 @@ THEME = './theme'
 
 # These next few lines are just to satisfy the theme
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-# PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['pelican.plugins.i18n_subsites']
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['i18n_subsites']
 
 PATH = "content"
 
