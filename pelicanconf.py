@@ -27,7 +27,7 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (
-    ("Github", "https://github.com/KChoiSlattery"),
+    # ("Github", "https://github.com/KChoiSlattery"),
     ("LinkedIn", "https://www.linkedin.com/in/kchoislattery/"),
 )
 
