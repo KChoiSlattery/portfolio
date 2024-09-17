@@ -4,10 +4,14 @@ SITEURL = ""
 
 THEME = './theme'
 
+STATIC_PATHS = ['images', 'scripts', 'ViewerJS', 'documents']
+
 # These next few lines are just to satisfy the theme
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['i18n_subsites']
+
+ARTICLE_EXCLUDES = ['ViewerJS']
 
 PATH = "content"
 

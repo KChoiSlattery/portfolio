@@ -243,3 +243,8 @@ figure.floatcenter, .align-center {
 .gap-left {
   margin-left: 10px;
 }
+
+.pdf-viewer {
+    width: 100%;
+    height: 580px;
+}
