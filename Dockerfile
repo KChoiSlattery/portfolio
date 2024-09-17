@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:bullseye
 
 RUN apt update && \
     apt clean && \
@@ -6,5 +6,4 @@ RUN apt update && \
       git \
       npm \
       build-essential \
-      ruby-full \
-      zlib1g-dev
+      ruby-full
