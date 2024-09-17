@@ -1,6 +1,6 @@
 ---
 Title: "Camera Ring" Avionics Bay
-Date: 2024-09-17
+Date: 2023-08-01
 Category: Engineering
 Summary: An avionics bay that housed much more than cameras. 
 ---

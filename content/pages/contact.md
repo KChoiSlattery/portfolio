@@ -1,5 +1,5 @@
 ---
-Title: Contact Information
+Title: Contact
 ---
 
 Contact me!
