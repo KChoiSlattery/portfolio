@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio for applications to internships, grad school, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KChoiSlattery/portfolio.git"
+  },
+  "author": "Kieran Choi-Slattery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KChoiSlattery/portfolio/issues"
+  },
+  "homepage": "https://github.com/KChoiSlattery/portfolio#readme"
+}
