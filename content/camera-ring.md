@@ -9,4 +9,5 @@ Summary: An avionics bay that housed much more than cameras.
 
 Despite its name, the Camera Ring was
 
-![Assembled camera ring](images/assembled-camera-ring.jpg)
+
+ ![Assembled camera ring](images/assembled-camera-ring.jpg)

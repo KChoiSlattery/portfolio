@@ -5,3 +5,5 @@ Category: Engineering
 ---
 
 I made the muffin.
+
+![muffin-found](muffin-found.png)
