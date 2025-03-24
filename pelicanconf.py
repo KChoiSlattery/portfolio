@@ -9,13 +9,13 @@ STATIC_PATHS = ['images', 'scripts', 'ViewerJS', 'documents']
 # These next few lines are just to satisfy the theme
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'render_math']
 
 ARTICLE_EXCLUDES = ['ViewerJS']
 
 PATH = "content"
 
-ABOUT_ME = "Hi, I'm Kieran!"
+ABOUT_ME = "Hi, I'm Kieran! I’m a fourth-year aerospace engineering major at Georgia Tech with a minor in Earth and Atmospheric Sciences. My research is with the Georgia Tech Planetary Exploration Lab, with whom I will be pursuing my Ph.D. in Electrical Engineering starting in the fall, to work on instrumentation for planetary science. I am also the avionics lead for the Georgia Tech Experimental Rocketry team, where I lead the development of the Flight Computer, a multi-board PC-104 chunk of electronics that commands the rocket."
 AVATAR = "images/square-headshot.jpg"
 
 TIMEZONE = 'EST'
