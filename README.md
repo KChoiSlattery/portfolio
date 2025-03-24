@@ -1,6 +1,8 @@
 # portfolio
 
-My portfolio for applications to internships, grad school, etc. It uses Pelican to generate the site and is based on the [pelican-boostrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) theme, with some minor changes.
+Still very much under constriction.
+
+My portfolio/website. Originally for applications to internships, grad school, etc, I think it'll become more of a blog. It uses Pelican to generate the site and is based on the [pelican-boostrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) theme, with some minor changes.
 
 ## Setup
 
