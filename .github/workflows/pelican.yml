@@ -12,4 +12,4 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py"
-      requirements: "requirements.txt"
+      requirements: "-r requirements.txt"
