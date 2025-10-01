@@ -33,6 +33,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (
     ("Planetary Exploration Lab", "https://pxl.earth/"),
     ("Georgia Tech Experimental Rocketry", "https://www.ramblinrocketclub.org/gtxr"),
+    ("Personal PyPI", "https://kchoislattery.github.io/PyPI/")
 )
 
 # Social widget
@@ -45,5 +46,6 @@ DEFAULT_PAGINATION = 10
 
 DELETE_OUTPUT_DIRECTORY = True
 
+PYGMENTS_STYLE="default"
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
