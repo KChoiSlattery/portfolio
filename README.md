@@ -16,7 +16,7 @@ My portfolio/website. Originally for applications to internships, grad school, e
 
 ### Building the site
 
-This is done automatically by a Github worker, but can be done locally to test it out.
+This is done automatically by a Github worker on push, but can be done locally to test it out.
 
 - Build the output: `pelican content`
 - Run the local server: `pelican --listen`

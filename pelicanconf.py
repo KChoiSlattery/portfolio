@@ -2,6 +2,10 @@ AUTHOR = 'Kieran Choi-Slattery'
 SITENAME = "Kieran Choi-Slattery"
 SITEURL = ""
 
+BOOTSTRAP_THEME = "yeti"
+# BOOTSTRAP_THEME = "readable"
+# BOOTSTRAP_THEME = "paper"
+
 THEME = './theme'
 
 STATIC_PATHS = ['images', 'scripts', 'ViewerJS', 'documents']
@@ -15,7 +19,7 @@ ARTICLE_EXCLUDES = ['ViewerJS']
 
 PATH = "content"
 
-ABOUT_ME = "Hi, I'm Kieran! Website still very much under construction."
+ABOUT_ME = "Hi, I'm Kieran! I’m a Ph.D. student in Electrical and Computer Engineering at Georgia Tech. My research is in the Aerospace Engineering department, where I did my undergrad, working on instrumentation for solar system science and astrobiology. Previously, I've worked on radar algorithms for glaciology and rocket avionics for the Georgia Tech Experimental Rocketry team, where I was the Avionics Lead."
 AVATAR = "images/square-headshot.jpg"
 
 TIMEZONE = 'EST'
@@ -47,5 +51,6 @@ DEFAULT_PAGINATION = 10
 DELETE_OUTPUT_DIRECTORY = True
 
 PYGMENTS_STYLE="default"
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
