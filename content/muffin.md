@@ -1,5 +1,5 @@
 ---
-Title: "Muffin" Lower Stage Avionics Bay
+Title: "\"Muffin\" Lower Stage Avionics Bay"
 Date: 2022-08-01
 Category: Engineering
 Summary: Avionics bay for first stage of rocket.
