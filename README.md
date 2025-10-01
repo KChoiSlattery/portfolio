@@ -4,15 +4,29 @@ Still very much under construction.
 
 My portfolio/website. Originally for applications to internships, grad school, etc, I think now it'll become more of a blog. It uses Pelican to generate the site and is based on the [pelican-boostrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) theme, with some minor changes.
 
-## Setup
+## Usage
 
-1. Install submodules: `git submodule init && git submodule update`
-2. Create the python virtual environment: `python -m venv venv`
-3. Activate the venv: varies by OS
-   - Windows: `venv\Scripts\Activate.bat`
-4. Install requirements: `pip install -r requirements.txt`
+### First-time setup
 
-## Building the site
+- Create the Python virtual environment (venv): `py -3.13 -m venv venv`
+- Activate the venv: varies by OS
+  - Windows: `venv\Scripts\activate.bat`
+  - Linux and MacOS: `source venv/bin/activate`
+- Install requirements to the venv: `pip install -r requirements.txt`
 
-1. Build the output: `pelican content`
-2. Run the local server: `pelican --listen`
+### Building the site
+
+This is done automatically by a Github worker, but can be done locally to test it out.
+
+- Build the output: `pelican content`
+- Run the local server: `pelican --listen`
+
+### Changing the virtual environment
+
+If there doesn't currently exist a requirements.txt, make a venv and install pip-tools to it.
+
+- Make desired modifications to "requirements.in"
+- With the venv still activated, compile "requirements.in": `pip-compile requirements.in`
+- Deactivate the venv: `deactivate`
+- Delete the "venv" folder
+- Perform the "First-Time Setup" instructions above.

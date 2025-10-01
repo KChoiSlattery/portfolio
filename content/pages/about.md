@@ -1,7 +1,7 @@
 ---
 Title: About
 ---
-I’m a fourth-year aerospace engineering major at Georgia Tech with a minor in Earth and Atmospheric Sciences. My research is with the Georgia Tech Planetary Exploration Lab, with whom I will be pursuing my Ph.D. in Electrical Engineering starting in the fall, to work on instrumentation for planetary science. I am also the avionics lead for the Georgia Tech Experimental Rocketry team, where I lead the development of the Flight Computer, a multi-board PC/104 chunk of electronics that commands the rocket.
+I’m a first-year Ph.D. student in Electrical and Computer Engineering at Georgia Tech. My research is in the Aerospace Engineering department, where I did my undergrad, working on instrumentation for solar system science and astrobiology. Previously, I've worked on radar algorithms for glaciology and rocket avionics for the Georgia Tech Experimental Rocketry team, where I was the Avionics Lead.
 
 Contact me!
 TODO: How?
