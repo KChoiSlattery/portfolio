@@ -23,7 +23,7 @@ The cover was polycarbonate and vacuum-formed, which was a manufacturing techniq
 
 <center><video src="images/muffin-installed.mp4" height="500" display="block" controls></video></center>
 
-<center><i>The Muffin integrated in the lower staging flange of</i> Material Girl. (Click to play video)</center><br>
+<center><i>The Muffin integrated in the lower staging flange of</i> Material Girl. <i>Click to play video.</i></center><br>
 
 ### Reults
 
