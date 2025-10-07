@@ -32,8 +32,8 @@ The cover was polycarbonate and vacuum-formed, which was a manufacturing techniq
 ![Muffin found](images/muffin-found.png)
 <center><i>The Muffin after being ejected by a the hot-stage and falling thousands of feet. The charred material is likely burned scraps of the parachute, which was ignited by the sustainer motor.</i></center><br>
 
-Unfortunately, the cameras only recorded a few frames of the flight since their power cut out after hot-staging and their buffer was flushed. This was not the first time that we had recovered cameras that magically had very little or bad footage, and it would not be the last, as you will see.
-However, the data recorded by the altimeter was useful for analysis of g-loading and determining when the hot-stage occurred. The altitude stays roughly with the rest of the rocket up until the staging event, and the battery disconnects shortly after.
+Unfortunately, the cameras only recorded a few frames of the flight since their power cut out after hot-staging and their buffer was flushed. This was not the first time that we had recovered cameras that had very little or bad footage, and it would not be the last, as you will see.
+However, the data recorded by the altimeter was useful for analysis of g-loading and determining when the hot-stage occurred. The altitude stays roughly with the rest of the rocket up until the staging event and the battery disconnects shortly after.
 
 ![Muffin data](images/muffin-data.png)
 <center><i>Data recorded by the muffin during its short flight.</i></center><br>
