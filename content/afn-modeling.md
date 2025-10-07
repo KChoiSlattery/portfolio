@@ -4,6 +4,7 @@ Date: 2023-01-01
 Category: Projects
 Summary: Simulation of data from the Autofluorescence Nephelometer
 Tags: 
+Status: draft
 ---
 
 ## Parallel and perpendicular cross-sections

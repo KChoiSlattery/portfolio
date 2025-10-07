@@ -17,7 +17,8 @@ The first was the booster bay for GTXR's rocket *Material Girl*, affectionately 
 ![alt text](images/material-girl-sideways.jpg)<center>Material Girl<i> taking off on the pad (sideways image). The Muffin can be seen as the green light just left of the upper-stage fins.</i></center><br>
 
 It was also a test of new manufacturing techniques and their viability for flight hardware. The sled was FDM-3D-printed and the cup was printed out of Formlabs Durable resin.
-The cover was polycarbonate and vacuum-formed, which was a manufacturing technique that had never been done by GTXR. 
+The cover was polycarbonate and vacuum-formed, which was a manufacturing technique that had never been done by GTXR.
+
 ![Muffin drawing](images/muffin-drawing.png)<center><i>Labeled diagram of the Muffin.</i></center><br>
 
 <center><video src="images/muffin-installed.mp4" height="500" display="block" controls></video></center>
@@ -37,9 +38,10 @@ However, the data recorded by the altimeter was useful for analysis of g-loading
 ![Muffin data](images/muffin-data.png)
 <center><i>Data recorded by the muffin during its short flight.</i></center><br>
 
-## The Camera Rings
+## The Camera Ring(s)
+
+TODO: Write about this
 
 ![Camera ring drawing](images/camera-ring-drawing.png)
 
 ![Assembled camera ring](images/assembled-camera-ring.jpg)
-*Pre*
